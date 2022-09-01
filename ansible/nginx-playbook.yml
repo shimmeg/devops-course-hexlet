@@ -1,7 +1,4 @@
 - hosts: webservers
-  vars:
-    nginx_port: 80
-    root_dir: /usr/share/nginx/html
   tasks: 
     - name: install nginx
       ansible.builtin.apt:
